@@ -18,6 +18,6 @@ obtenerPokemon("gengar", pokemonExtraido);
 obtenerPokemon("meowth", pokemonExtraido);
 obtenerPokemon("golem", pokemonExtraido);
 obtenerPokemon("poliwhirl", pokemonExtraido);
-// ¿por que no respeta el orden que asigne?
-// ¿por que debe ir doble ability?
+// ¿por que no respeta el orden que asigne? xq es código asincrónico, entonces va a ejecutar primero la función callback del request que termine antes
+// ¿por que debe ir doble ability? porque asi esta armado el json que te devuelve la API creo
 // ok

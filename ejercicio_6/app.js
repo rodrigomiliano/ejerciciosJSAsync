@@ -19,5 +19,5 @@ obtenerPersonaFake().then(dataPersona => {
         console.log("Error : ",e.error);
     })
 
-// ¿es obligatorio poner el error?    
+// ¿es obligatorio poner el error? Es una buena practica   
 // ok

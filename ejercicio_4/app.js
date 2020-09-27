@@ -21,5 +21,5 @@ const obtenerPokemon = require("./library");
         console.log("Error : ",e.error);
     });
 
-// ¿hay forma de llamar a 2 o mas sin tanto codigo?
+// ¿hay forma de llamar a 2 o mas sin tanto codigo? nose. La función callback que le pasas al .then definila fuera y usala pasandola por referencia
 // ok    
